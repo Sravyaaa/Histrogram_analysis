@@ -1,0 +1,5 @@
+# Histrogram_analysis
+
+These scripts are designed to perform histogram analysis and normalization, essential techniques in image processing for improving visual quality and preparing data for further analysis. The histo_KasturiSravya.py script focuses on generating and plotting histograms of image intensity values, offering insights into contrast distribution and pixel intensity spread. The normalize_histo_KasturiSravya.py script builds on this by applying histogram normalization, a technique used to enhance image contrast by stretching the intensity range. 
+
+I implemented functions that compute histograms, normalize pixel values across a standard range, and visualize both the original and processed results. These tools are particularly useful for tasks that require consistent illumination and contrast across image datasets, such as computer vision pipelines or machine learning preprocessing. The code is modular and suitable for extension into more complex workflows involving segmentation, feature extraction, or classification.
